@@ -13,16 +13,16 @@
                 @foreach ($importFileColumns as $index => $fileColumn)
                     <tr>
                         <td class="list-action">
-                            <div class="custom-control custom-checkbox">
+                            <div class="form-check">
                                 <input
                                     type="checkbox"
                                     id="checkbox_{{ $index }}"
-                                    class="custom-control-input"
+                                    class="form-check-input"
                                     name="match_columns[{{ $index }}]"
                                     value="{{ $fileColumn }}"
                                     checked="checked"
                                 />
-                                <label class="custom-control-label" for="checkbox_{{ $index }}"></label>
+                                <label class="form-check-label" for="checkbox_{{ $index }}"></label>
                             </div>
                         </td>
                         <td>{{ $fileColumn }}</td>

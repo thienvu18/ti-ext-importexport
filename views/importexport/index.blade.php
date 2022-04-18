@@ -9,17 +9,17 @@
             <div class="form-group">
                 <a
                     class="btn btn-primary"
-                    data-toggle="modal"
-                    data-target="#importExportModal"
-                    data-backdrop="static"
+                    data-bs-toggle="modal"
+                    data-bs-target="#importExportModal"
+                    data-bs-backdrop="static"
                     data-request="onLoadPopup"
                     data-request-data="context: 'import'"
                 ><i class="fa fa-upload"></i> @lang('igniterlabs.importexport::default.button_import_records')</a>
                 <a
                     class="btn btn-primary"
-                    data-toggle="modal"
-                    data-target="#importExportModal"
-                    data-backdrop="static"
+                    data-bs-toggle="modal"
+                    data-bs-target="#importExportModal"
+                    data-bs-backdrop="static"
                     data-request="onLoadPopup"
                     data-request-data="context: 'export'"
                 ><i class="fa fa-download"></i> @lang('igniterlabs.importexport::default.button_export_records')
