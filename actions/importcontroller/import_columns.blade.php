@@ -29,7 +29,7 @@
                         <td>
                             <select
                                 name="import_columns[{{ $index }}]"
-                                class="form-control"
+                                class="form-select"
                             >
                                 <option value="">@lang('admin::lang.text_please_select')</option>
                                 @foreach ($importColumns as $column => $columnName)
