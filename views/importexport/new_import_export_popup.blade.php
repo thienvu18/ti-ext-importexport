@@ -9,7 +9,7 @@
 </div>
 <div class="modal-body">
     <div class="form-group">
-        <label class="control-label">@lang('igniterlabs.importexport::default.label_'.$context.'_record')</label>
+        <label class="form-label">@lang('igniterlabs.importexport::default.label_'.$context.'_record')</label>
         <select class="form-select" name="code">
             <option value="">@lang('admin::lang.text_select')</option>
             @foreach ($importExports as $code => $config)
